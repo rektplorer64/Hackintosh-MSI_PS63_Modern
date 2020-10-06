@@ -1,22 +1,24 @@
 # Hackintosh for MSI PS63 Modern
 ## Specifications
-| Part        | Model |
-| ----------- | ----------- |
+| Part        | Model | Note |
+| ----------- | ----------- | --- |
 | CPU      | Intel Core i7-8565U       | 
 | Integrated GPU   | Intel UHD Graphic 620        |
 | Dedicated GPU   | NVIDIA GTX1050 Max-Q        |
 | RAM   | DDR4-2400 SO-DIMM 24GB        |
-| SSD   | Transcend 220s 1TB        |
+| SSD 1  | Transcend 220s 1TB        |
+| SSD 2  | HP SATA M.2 SSD 512GB        | Installed macOS on this drive
 | Screen   | 15.6' IPS 1920 × 1080         |
-| Wi-Fi/Bluetooth   | Intel Wireless AC9560        |
+| Wi-Fi/Bluetooth   | Intel Wireless AC9560        | Works by using itlwm kext
 | Card Reader   | Realtek        |
-| Webcam   | 720p        |
+| Webcam   | 720p        | Keyboard Toggle (Fn + F6) works perfectly
 
 ## Hackintosh Status
 ![System Information of my laptop](./readme-assets/system-info.png)
-Here is what I installed and used.
-- Operating Systems - Dual-boot macOS Catalina 10.15.6 and Windows 10 each on its own SSD.
-- OpenCore - version 0.6.0
+
+Here is what I installed and used as a daily driver.
+- **Operating Systems** - Dual-boot macOS Catalina 10.15.6 and Windows 10 each on its own SSD.
+- **OpenCore** - version 0.6.0
 
 ### Checklist
 Here is a list of what works, what don't.
@@ -38,7 +40,8 @@ Here is a list of what works, what don't.
     - [x] macOS native gestures
 - [x] Keyboard
     - [x] Brightness and volume up/down keys
-    - [x] Print Screen key
+    - [x] Print Screen key (Mapped it to macOS's F13)
+    - [x] Webcam/Built-in Microphone key (Fn + F6)
 - [ ] Fingerprint Sensor (There is no workaround.)
 - [ ] Card Reader (There is no workaround.)
 
