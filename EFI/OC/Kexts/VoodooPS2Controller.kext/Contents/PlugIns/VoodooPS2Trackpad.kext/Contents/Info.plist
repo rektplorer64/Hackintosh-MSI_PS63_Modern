@@ -249,11 +249,11 @@
 					<key>ProcessUSBMouseStopsTrackpad</key>
 					<true/>
 					<key>QuietTimeAfterTyping</key>
-					<integer>50</integer>
+					<integer>75</integer>
 					<key>Resolution</key>
-					<integer>500</integer>
+					<integer>420</integer>
 					<key>ScrollResolution</key>
-					<integer>500</integer>
+					<integer>420</integer>
 					<key>SkipPassThrough</key>
 					<false/>
 					<key>USBMouseStopsTrackpad</key>
